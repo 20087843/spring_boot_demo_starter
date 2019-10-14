@@ -1,6 +1,8 @@
 ### 原理
 spring-boot启动的时候会找到starter jar包中的resources/META-INF/spring.factories文件，根据spring.factories文件中的配置，找到需要自动配置的类并加载到IOC容器中
 
+### [源码分析](./source_analysis.html)
+
 ### 程序说明
 1. @EnableDemoConfiguration 自动化配置加载条件，必须有一个类标注了此注解
 2. DemoProperties 对应application.properties里面的 spring.smilly.demo.xxx 属性
